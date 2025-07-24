@@ -5,7 +5,7 @@
     font-family: poppins, sans-serif;
 }
  .container {
-    max-width: 1280px;
+    max-width: 1140px;
     background-color: #f5f8ff;
     margin: auto;
     
@@ -79,6 +79,8 @@ gap: 20px;
 .card-container {
 display: grid;
 grid-template-columns: repeat(4,1fr);
+gap: 10px;
+
 }
 .card-image {
    max-width: 100%;
@@ -109,14 +111,182 @@ grid-template-columns: repeat(4,1fr);
     cursor: pointer;
     width: 100%;
 }
+/* Plants Lover Section  */
+.flowers-lover {
+    margin-top: 200px;
+    display: flex;
+     gap: 100px;
+     
+  
+}
+.image-container  {
+    position: relative;
+     
+    
+     
+}
+.image-container .bg-img {
+    width: 100%;
+}
+.badge {
+    width: 300px;
+    position: absolute;
+    top: -29%;
+    right: -29%;
+  
+}
+.text-container{
+     max-width: 600px;
+    text-align: justify;
+    
+}
+.text-container h2 {
+    font-size: 30px;
+   margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.text-container ul{
+    list-style-type: disc;
+    
+}
+.text-container ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+/* optional section */
+
+.optional-container {
+    margin-top: 80px;
+}
+.optional-text {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.optional-text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.small-card,.big-card {
+    position: relative;
+    background-repeat: no-repeat;
+ 
+    border-radius: 8px;
+    min-height: 160px;
+    
+    
+    
+    
+}
+.big-card .card-text {
+    font-size: 25px;
+  
+     padding-left: 50px;
+    padding-bottom: 50px; 
+}
+
+ .card-text {
+    position: absolute;
+     bottom: 30px;
+    left: 30px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+   
+    
+ }
 
 
+ .card-text a {
+    color: #ffffff;
+   padding-left: 45px;
+ }
+ .left-cards .card-text {
+    font-size: 18px;
+ } 
+  
+ .bloom {
+    background-image:url("./assets/deal-bloom.png") ;
+     
+     
+ }
+ .ana {
+    background-image: url("./assets/deal-ana.png");
+     
+    
+ }
+.zabo {
+    background-image: url("./assets/deal-zabo.png");
+ 
+}
+.left-cards {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+      
+       
+       
+}
 
+.deals-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+}
+/* join section */
 
+.full-bg {
+    background-image:url("./assets/news-letter-bg.png") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.6);
+}
+.join-title {
+    font-size: 23px;
+    color: #ffffff;
+    margin-bottom: 25px;
+   
+}
+input[type="email"] {
+    padding: 10px;
+    width: 600px;
+}
+.box-btn {
+    width: 150px;
+    background: #E95A08;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+}
+.join-box {
+    display: flex;
+}
 
+/* footer-section */
+.footer-section {
+    padding-top: 50px;
+    display: grid;
+gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding-left:100px ;
+    padding-right: 100px;
+   
+    justify-content: center;
 
-
-
+}
+ 
+.feature-list li,.service-list li {
+    list-style: none;
+    margin-bottom: 20px;
+}
 
 
 
@@ -154,11 +324,44 @@ grid-template-columns: repeat(4,1fr);
       .banner{
              flex-direction: column-reverse;
              margin-top: 50px;
-align-items: center;
-gap: 20px;
+            align-items: center;
+             gap: 20px;
  
       }
       .banner-text p {
         width: 100%;
       }
+      .banner-image {
+        width: 100%;
+      }
+      .card-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+      }
+      .card-image {
+        max-width: 100%;
+      }
+   .flowers-lover {
+    flex-direction: column;
+    margin-top: 25px;
+    padding-top: 0;
+     
+   }
+   .image-container{
+    max-width: 100%;
+    padding-left: 10px;
+     
+     
+   }
+   .badge{
+    display: none;
+   }
+    .text-container {
+        max-width: 100%;
+        padding: 10px 20px 0;
+    
+ 
+    }
+    
  }
